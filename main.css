@@ -6,15 +6,9 @@ body{
 	margin-top: 0;
 }
 
-h2{
-  margin-top: 50px;
-  font-size: 20px;
-	font-weight: bold;
-  text-align: center;
-  color: #dadad5;
-}
+/* Sidebar elements */
 
-#rSidebar{
+#rSide{
 	display: block;
 	position: fixed;
   margin-top: 0;
@@ -28,7 +22,7 @@ h2{
   border-radius: 5px;
 }
 
-img{
+#rSide img{
   display: block;
   width: 150px;
   height: auto;
@@ -36,21 +30,77 @@ img{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  box-shadow: 4px 4px 0.5em #bbbbbb;
+  box-shadow: 4px 4px 0.5em #787878;
 }
 
-ul{
+#rSide h2{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+	font-weight: bold;
+  text-align: center;
+  color: #dadad5;
+}
+
+#rSide ul{
+  margin-top: 0;
   list-style-type: none;
   font-size: 12px;
-  line-height: 175%;
+  line-height: 160%;
   color: #f3f3f3;
 }
 
-.smallTxt{
-  font-size: 10px;
-  color: #76feff;
+#rSide li, #rSide li a{
+  color: #0b0969;
+  text-decoration: none;
 }
 
-a{
-  color: #0b0969;
+#rSide a.smallTxt{
+  font-size: 10px;
+  color: #892a2a;
+  text-decoration: none;
+}
+
+#rSide img.liimg{
+  display: inline-block;
+  height: 12px;
+  width: auto;
+  margin-top: 0;
+  margin-right: 10px;
+  box-shadow: none;
+}
+
+/* blog elements */
+
+#blog{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.post{
+  display: block;
+  position: relative;
+  left: 25px;
+  padding-right: 240px;
+  line-height: 110%;
+}
+
+.post h4{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #dadada;
+}
+
+.post p{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.post-foot p{
+  text-align: right;
+  color: blue;
+  font-size: 10px;
 }
